@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-11-13T02:33:04.407226+00:00",
+  "dataset": "data/wiki-50.jsonl",
+  "sha256": "184d017843e89f4854b22c59157f9db49423a3b50833e0d20e49a3e6e809949c",
+  "records": 50,
+  "unique_revisions": 50,
+  "unique_pages": 48,
+  "unique_texts": 50,
+  "expected_vectors": 339,
+  "maximum_chunk_tokens": 203,
+  "edit_time_range_utc": [
+    "2026-11-12T15:05:04+00:00",
+    "2026-11-12T15:06:10+00:00"
+  ],
+  "recorded_time_range_utc": [
+    "2026-11-12T15:05:25.336929+00:00",
+    "2026-11-12T15:09:07.426092+00:00"
+  ],
+  "split_order": "capture order; disjoint revision IDs, pages may overlap",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+  "chunk_size": 200,
+  "chunk_overlap": 40,
+  "chunk_unit": "model_tokens",
+  "splits": {
+    "baseline": {
+      "file": "data/task1-check-50-split/baseline.jsonl",
+      "sha256": "d15d5a3a4639601472152fc411af23c3a815b493a32660de9e6323f51abeff85",
+      "start_index": 0,
+      "end_index_exclusive": 20,
+      "records": 20,
+      "vectors": 125
+    },
+    "incremental": {
+      "file": "data/task1-check-50-split/incremental.jsonl",
+      "sha256": "68ec93571ea40dc8fb74ddde281b87749b0c645258269227e653ac5b904654ec",
+      "start_index": 20,
+      "end_index_exclusive": 50,
+      "records": 30,
+      "vectors": 214
+    }
+  }
+}

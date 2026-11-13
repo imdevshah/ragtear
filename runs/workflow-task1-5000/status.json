@@ -1,0 +1,11 @@
+{
+    "status":  "PASS",
+    "phase":  "complete",
+    "run_id":  "task1-5000",
+    "started_utc":  "2026-11-13T02:36:49.1329282Z",
+    "updated_utc":  "2026-11-13T11:21:33.3132725Z",
+    "dataset":  "data/wiki-5000.jsonl",
+    "target_records":  5000,
+    "baseline_records":  2000,
+    "detail":  "Validated 5000 records and 32663 unique vectors, including restart and duplicate replay"
+}

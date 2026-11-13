@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "run_id": "validated-50",
+  "collection": "wiki_validated-50",
+  "topic": "wiki-edits-validated-50",
+  "max_offsets": 10,
+  "trigger_seconds": 10,
+  "starting": "earliest",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+  "chunk_size": 200,
+  "chunk_overlap": 40,
+  "hnsw": {
+    "space": "cosine",
+    "max_neighbors": 16,
+    "ef_construction": 100,
+    "ef_search": 50
+  },
+  "versions": {
+    "chromadb": "1.5.9",
+    "pyspark": "3.5.1",
+    "sentence-transformers": "6.3.0",
+    "transformers": "5.22.2",
+    "torch": "2.6.0+cpu"
+  }
+}

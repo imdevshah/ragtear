@@ -218,3 +218,40 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Task 1 handoff artifacts and local runtime exclusions
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+# Share the fixed datasets used by Task 1. New captures stay local by default.
+data/*
+!data/wiki-50.jsonl
+!data/wiki-5000.jsonl
+!data/task1-5000-split/
+!data/task1-check-50-split/
+
+# Share completed validation evidence. New experiment runs stay local by default.
+runs/*
+!runs/task1-5000/
+!runs/workflow-task1-5000/
+!runs/final-50/
+!runs/validated-50/
+!runs/task1-check-50/
+!runs/workflow-task1-check-50/
+
+# Spark checkpoints belong to the originating Kafka/Chroma deployment.
+runs/**/checkpoint/
+*.tmp
+chroma_data/
+tmp/
+logs/
+checkpoints/
+models/
+tests/__pycache__/
+
+# Retain the archived workflow logs as validation evidence.
+!runs/workflow-task1-5000/*.log
+!runs/workflow-task1-check-50/*.log

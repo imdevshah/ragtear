@@ -1,0 +1,18 @@
+{
+    "container_id":  "0f8667270f1dc8a8ee98a9435d70a49f93e415d73622d967cb53e25e8a74014a",
+    "image_id":  "sha256:eea440ca267857bbe4929cf79a9d4052c54356d1cddb30185eb1422ead710059",
+    "command":  [
+                    "wiki_producer.py",
+                    "live",
+                    "--record",
+                    "data/wiki-5000.jsonl",
+                    "--record-only",
+                    "--max-events",
+                    "5000",
+                    "--max-seconds",
+                    "0"
+                ],
+    "started_utc":  "2026-11-13T02:29:19.281993985Z",
+    "finished_utc":  "2026-11-13T10:49:02.000312549Z",
+    "exit_code":  0
+}

@@ -1,0 +1,23 @@
+{
+    "status":  "PASS",
+    "run_id":  "task1-check-50",
+    "completed_utc":  "2026-11-13T02:36:06.7310835Z",
+    "dataset":  "data/wiki-50.jsonl",
+    "dataset_sha256":  "184d017843e89f4854b22c59157f9db49423a3b50833e0d20e49a3e6e809949c",
+    "dataset_records":  50,
+    "baseline_records":  20,
+    "incremental_records":  30,
+    "unique_vectors":  339,
+    "initial_batches":  5,
+    "duplicate_events_tested":  10,
+    "final_events_processed":  60,
+    "truncated_chunks":  0,
+    "maximum_chunk_tokens":  203,
+    "checkpoint_restart_passed":  true,
+    "duplicate_replay_passed":  true,
+    "self_retrieval_passed":  true,
+    "collection":  "wiki_task1-check-50",
+    "chroma_host":  "localhost:8001",
+    "kafka_topic":  "wiki-edits-task1-check-50",
+    "scope":  "Task 1 correctness validation; no concurrent-query or CRD performance claim"
+}

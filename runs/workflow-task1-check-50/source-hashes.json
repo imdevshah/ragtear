@@ -1,0 +1,50 @@
+[
+    {
+        "file":  "common.py",
+        "sha256":  "5155dc148ac5b56c2e0416e4d36cdd47391007574b4cca61d5338137b96bf8ee"
+    },
+    {
+        "file":  "make_questions.py",
+        "sha256":  "51b0c88511c048dacb28016f4452d5f2392167170afea2eb510f579369c39b2c"
+    },
+    {
+        "file":  "prepare_dataset.py",
+        "sha256":  "6156434cd51eb247464d4d022138241fcf085714936982a86cb7b4d2adaf9349"
+    },
+    {
+        "file":  "sink.py",
+        "sha256":  "6000e5f15916181b95333e3853a0847d219140edfa2feae2d41653af5b048d98"
+    },
+    {
+        "file":  "stream_job.py",
+        "sha256":  "e44b6d37b702194e36842924295953beab8219406c331913f8c345d018d10846"
+    },
+    {
+        "file":  "verify.py",
+        "sha256":  "d09221c7a6347a36e625da119c257a7169e5e1fd492b4f1b85fa8e3fee35029e"
+    },
+    {
+        "file":  "wiki_producer.py",
+        "sha256":  "414708aa2c137bb77731e210fb40052940583210070e97a2ad11b6aa0ec146cf"
+    },
+    {
+        "file":  "complete_task1.ps1",
+        "sha256":  "f4bbf0b5e9d67ec16dcb8a4bd1c176b22f2d966c6d568ff412acfd69b72e32ba"
+    },
+    {
+        "file":  "smoke_test.ps1",
+        "sha256":  "d34ae737716f2d829b6fd8d287c2c6610eebd8f16c2a2de730120ab0cc967a8a"
+    },
+    {
+        "file":  "Dockerfile",
+        "sha256":  "cee961d756dd7461789b68bf7761e9b27f3fb648af40727130d1bdbdbbf9f01d"
+    },
+    {
+        "file":  "docker-compose.yml",
+        "sha256":  "921f4a9db9341858571c9f682e6d9f8ef85c5dd2d2dbdce1c497e1983d5c4520"
+    },
+    {
+        "file":  "requirements.txt",
+        "sha256":  "277404572df7a299d2e0f1d8f0367162a696b19c40454cd3491332e3e7db1f31"
+    }
+]

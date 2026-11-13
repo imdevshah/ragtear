@@ -1,0 +1,11 @@
+{
+    "status":  "PASS",
+    "phase":  "complete",
+    "run_id":  "task1-check-50",
+    "started_utc":  "2026-11-13T02:32:57.9913107Z",
+    "updated_utc":  "2026-11-13T02:36:06.7373518Z",
+    "dataset":  "data/wiki-50.jsonl",
+    "target_records":  50,
+    "baseline_records":  20,
+    "detail":  "Validated 50 records and 339 unique vectors, including restart and duplicate replay"
+}

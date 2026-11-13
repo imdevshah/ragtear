@@ -1,0 +1,23 @@
+{
+    "status":  "PASS",
+    "run_id":  "task1-5000",
+    "completed_utc":  "2026-11-13T11:21:33.3040715Z",
+    "dataset":  "data/wiki-5000.jsonl",
+    "dataset_sha256":  "055acaef9ef8c9033db81b0479509c4505feea2ef3d7035cada32cdbd472bf70",
+    "dataset_records":  5000,
+    "baseline_records":  2000,
+    "incremental_records":  3000,
+    "unique_vectors":  32663,
+    "initial_batches":  50,
+    "duplicate_events_tested":  100,
+    "final_events_processed":  5100,
+    "truncated_chunks":  0,
+    "maximum_chunk_tokens":  204,
+    "checkpoint_restart_passed":  true,
+    "duplicate_replay_passed":  true,
+    "self_retrieval_passed":  true,
+    "collection":  "wiki_task1-5000",
+    "chroma_host":  "localhost:8001",
+    "kafka_topic":  "wiki-edits-task1-5000",
+    "scope":  "Task 1 correctness validation; no concurrent-query or CRD performance claim"
+}
